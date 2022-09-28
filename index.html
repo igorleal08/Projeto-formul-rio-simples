@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title"> freeCodeCamp Survey Form Project </h1>
+    <p id="description"> description of survey </p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name<input id="name" type="text" placeholder="Enter Your Name"
+                    required /></label><br>
+            <label id="email-label">Email<input id="email" type="email" placeholder="Enter Your Email"
+                    required /></label><br>
+            <label id="number-label">Age<input id="number" type="number" min="13" max="120"
+                    placeholder="Enter Your Age" /></label><br><br>
+
+            <label>
+                Select one:
+                <select id="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>
+                </select>
+            </label>
+            <br>
+            <label>Select one<br><br><input type="radio" name="radio" class="inline" value="1" /> Radio 1</label>
+            <label><input type="radio" name="radio" class="inline" value="2" /> Radio 2</label>
+            <br>
+            <label> Multiple Select <br><br>
+                <input type="checkbox" value="A" class="inline" /> check box A <br>
+                <input type="checkbox" value="B" class="inline" /> check box B <br>
+                <input type="checkbox" value="C" class="inline" /> check box C <br>
+                <input type="checkbox" value="D" class="inline" /> check box D <br>
+            </label>
+            <br>
+            <label>
+                <textarea rows="6" cols="30" placeholder="additional comments"></textarea>
+            </label>
+            <br>
+            <input id="submit" type="submit" value="Submit" />
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
